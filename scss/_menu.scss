@@ -10,7 +10,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: set-text-color($primary-color);
         @include easeOut;
     }
 
@@ -90,7 +90,7 @@
     }
 
     .nav-item {
-        //transform: translate3d(600px, 0, 0);
+        //ransform: translate3d(1000px, 0, 0);
         @include easeOut;
 
         &.show {
@@ -109,7 +109,7 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: #fff;
+        color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
 
