@@ -84,8 +84,9 @@
     .portrait {
       width: 250px;
       height: 250px;
-      object-fit: cover;
       background: url('../img/EthanSabini.jpg');
+      background-size: cover;
+      background-position: 250px - 290px;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
